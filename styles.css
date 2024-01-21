@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: #fff;
+}
+
+button {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+div {
+    display: flex;
+}
+
+body.dark-mode {
+    background-color: #333;
+}
+
+body.dark-mode input[type="text"] {
+    background-color: #444;
+    color: #fff;
+}
+
+body.dark-mode button {
+    background-color: #555;
+    color: #fff;
+}
